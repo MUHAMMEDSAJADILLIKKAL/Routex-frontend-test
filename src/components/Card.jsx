@@ -4,7 +4,7 @@ import { HiOutlineGlobeEuropeAfrica } from "react-icons/hi2";
 
 const Card = () => {
   return (
-    <div className="w-[25%] h-[90%] bg-white rounded-3xl flex flex-col items-center justify-center gap-6">
+    <div className="h-[35%] w-[90%] md:w-[25%] md:h-[90%] bg-white rounded-3xl flex flex-col items-center justify-center gap-6">
         <div className='w-28 h-28 bg-[#83CD20] rounded-full flex items-center justify-center'>
         <HiOutlineGlobeEuropeAfrica className='text-6xl text-white' />
 

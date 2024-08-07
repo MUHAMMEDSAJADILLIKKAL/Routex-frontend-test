@@ -7,20 +7,20 @@ import Globe from '../assets/Globe.jpg'
 const Services = () => {
   return (
     <>
-      <div className="w-full h-screen bg-[#FFFDD0] relative flex">
+      <div className="w-full h-screen bg-[#FFFDD0] relative flex flex-col md:flex-rou">
         <div className="w-full h-full flex flex-col ">
           <div className="w-full h-[40%] z-50 flex items-end">
             <div className="flex w-full h-44 ">
-              <div className="w-[80%] h-full  px-24 ">
+              <div className="w-[80%] h-full text-white md:text-black  px-24 ">
                 <div className="flex gap-2 items-center">
                   <p>OUR SERVICES</p>
                   <FaTelegramPlane className="text-green-800" />
                 </div>
-                <h1 className="text-5xl font-bold">
+                <h1 className="text-3xl md:text-5xl font-bold">
                   Adventure Unleashed <br /> Discover Your Next
                 </h1>
               </div>
-              <div className="w-[20%] h-full flex items-center justify-around">
+              <div className=" w-[20%] hidden h-full md:flex items-center justify-around">
                 <div className="w-16 h-16 rounded-full border border-white  flex items-center justify-center">
                   <FaArrowLeft className="text-white" />
                 </div>
@@ -30,7 +30,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="w-full h-[60%]  z-20 flex items-center justify-center gap-x-4">
+          <div className="w-full mt-40 md:w-full h-[900px] md:h-[60%] bg-[#FFFDD0] md:bg-transparent  z-20 flex flex-col md:flex-row items-center justify-center gap-x-4">
             <Card />
             <Card />
             <Card />
