@@ -1,8 +1,7 @@
 import React from "react";
 import Logo from "../assets/Logo.png";
 import Chat from "../assets/Chat.png";
-import Hero from "../assets/Hero.jpg";
-import Button from "./Button";
+
 
 const Navbar = () => {
   return (
@@ -51,18 +50,7 @@ const Navbar = () => {
           </div>
         </div>
       </header>
-      <div
-        className="w-full h-[600px] flex flex-col items-center justify-center gap-8"
-        style={{
-          background: `url(${Hero}) no-repeat`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <h1 className="text-white font-semibold text-6xl text-center">Journey with Confidence <br /> <span className="text-[#83CD20]">Migrate</span>  with Us</h1>
-        <p className="w-[40%] text-white text-center text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ut eaque, officia obcaecati temporibus doloribus id sit ratione sunt quasi</p>
-        <Button title="Learn More"buttonStyle="w-36 h-12" />
-      </div>
+      
     </>
   );
 };
